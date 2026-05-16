@@ -1,0 +1,19 @@
+{
+  "name": "simple-telegram-request-bot",
+  "version": "1.0.0",
+  "description": "Simple Telegram bot that forwards a client request or question to admins.",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "check": "node --check src/bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.19.2",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
